@@ -1,0 +1,24 @@
+header, footer {
+  background: #6ffff1;
+  color: #ff6f7d;
+}
+
+.theme-dark {
+  background: #09ffe7;
+}
+
+.theme-light {
+  background: #d5fffb;
+}
+
+.crazy {
+  background: #009082;
+}
+
+.box {
+  background: #6ffff1;
+}
+
+.box.tiny {
+  background: #ff6f7d;
+}

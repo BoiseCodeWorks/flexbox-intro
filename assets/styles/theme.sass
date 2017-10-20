@@ -1,0 +1,24 @@
+$primary-color: #6ffff1
+$comp-color: complement($primary-color)
+$primary-dark: darken($primary-color, 20)
+$primary-light: lighten($primary-color, 20)
+$crazy: invert($comp-color)
+
+
+header, footer
+  background: $primary-color
+  color: $comp-color
+
+.theme-dark
+  background: $primary-dark
+
+.theme-light
+  background: $primary-light
+
+.crazy
+  background: $crazy
+
+.box
+    background: $primary-color
+    &.tiny
+      background: $comp-color

@@ -1,0 +1,6 @@
+$primary: peru;
+$comp: complement($primary);
+
+header, footer{
+    background: $comp;
+}
